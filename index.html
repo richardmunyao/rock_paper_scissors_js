@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissors JS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="#">Rock Paper Scissors: Assignment 2&nbsp;&nbsp;</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>             
+          </ul>
+         <span class="nametag">For Charlotte</span>
+       </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+       <h1 class="display-4 game_title">Rock Paper Scissors: The Game&nbsp;</h1>
+<p>Click on Rock, Paper or Scisssors to play against the computer&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  </div>
+  <div class="container">
+       <div class="row text-center score_box">
+<div class="col-lg">
+  <p> Your Score</p>
+  <p class="player_score" id="player_score">0</p>
+</div>
+<div class="col-lg vs">VS&nbsp; </div>
+<div class="col-lg">
+  <p> Computer Score&nbsp;</p>
+  <p class="computer_score" id="computer_score">0</p>
+</div>
+    </div>
+    <div class="row text-center">
+         <div class="col-lg">
+           <p><strong>You Played:</strong></p>
+           <p class="player_choice" id="player_choice">&nbsp;</p>
+         </div>
+         <div class="col-lg" id="current_play">&nbsp; </div>
+         <div class="col-lg">
+           <p><strong>Computer Played:</strong></p>
+           <p class="computer_choice" id="computer_choice">&nbsp; &nbsp;&nbsp;</p>
+         </div>
+       </div>
+<br>
+       <hr>
+       <br>
+       <div class="row">
+          <div class="col-md">
+             <div class="card"><img src="../../../Pictures/rock1.png" alt="" width="300" height="253" class="play_button" id="rock"/> </div>
+          </div>
+          <div class="col-md">
+            <div class="card"><img src="../../../Pictures/paper1.png" alt="" width="300" height="250" class="play_button" id="paper"/></div>
+          </div>
+          <div class="col-md">
+            <div class="card"><img src="../../../Pictures/scissors2.png" alt="" width="300" height="253" class="play_button" id="scissors"/></div>
+          </div>
+    </div>
+       <br/>
+       <br/>
+<br/>
+       <br/>
+<br>
+       <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+             <h4>&nbsp; </h4>
+             <p>Copyright &copy; 2022 &middot; All Rights Reserved &middot;  <a href="#" >&nbsp;</a></p>
+          </div>
+       </div>
+    </div>
+    <!-- script to run our rock paper scissors game -->
+    <script src="script.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

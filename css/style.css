@@ -1,0 +1,45 @@
+.score_box {
+    margin-bottom: 40px;
+
+}
+.game_title {
+    margin-bottom: 40px;
+}
+.vs {
+    font-size: 48px;
+    ;
+    ;
+}
+.player_score {
+    font-size: 48px;
+}
+.computer_score {
+    font-size: 48px;
+}
+.player_choice {
+    font-size: 36px;
+}
+.computer_choice {
+    font-size: 36px;
+}
+
+.jumbotron {
+	padding-bottom: 1rem;
+}
+.play_button {
+}
+#rock {
+}
+#rock {
+}
+#scissors {
+}
+#paper {
+}
+.nametag {
+    color: white;
+}
+#current_play {
+    font-weight: bold;
+    font-size: 18px;
+}
