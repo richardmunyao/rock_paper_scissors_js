@@ -25,6 +25,8 @@
 
 .jumbotron {
 	padding-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 }
 .play_button {
 }
